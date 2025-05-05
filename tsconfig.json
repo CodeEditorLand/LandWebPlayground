@@ -1,23 +1,15 @@
 {
 	"compilerOptions": {
-		"baseUrl": "./",
-		"lib": [
-			"es2016",
-			"WebWorker"
-		],
+		"target": "es6",
 		"module": "commonjs",
 		"moduleResolution": "node",
-		"outDir": "Target",
-		"rootDir": "src",
-		"sourceMap": true,
-		"target": "es6"
+		"outDir": "out",
+		"lib": [ "es2016", "WebWorker" ],
+		"sourceMap": true
 	},
-	"extends": "@playform/build/tsconfig",
+
 	"include": [
 		"src",
-		"./*.d.ts",
-		"src",
-		"src",
-		"src"
+		"./*.d.ts"
 	]
 }
