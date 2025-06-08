@@ -53,10 +53,10 @@
     "prepublish": "yarn webpack-cli --config extension.webpack.config --mode production"
   },
   "devDependencies": {
-    "@types/vscode": "^1.48.0",
-    "ts-loader": "^4.4.2",
-    "typescript": "^3.9.7",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
+    "@types/vscode": "^1.100.0",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
   }
 }
